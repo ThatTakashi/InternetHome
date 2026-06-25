@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -6,23 +6,12 @@
 
 header {
     margin: 0px;
-    padding: 15px;
+    padding: 10px;
     background-color: #1D4ED8;
     color: white;
     height: 80px;
     display: flex;
     align-items: center;
-} */
-
-body {
-    /* Use the injected theme colors with fallback defaults */
-    background-color: var(--android-bg, #ffffff);
-    color: var(--android-text, #000000);
-}
-
-.header {
-    color: var(--android-header-text, #333333);
-    border-bottom: 1px solid var(--android-divider, #cccccc);
 }
 
 h1 {
@@ -30,7 +19,7 @@ h1 {
 }
 
 .hero {
-    margin: 10px;
+    margin: 5px;
     padding-left: 5px;
     background-color: #DEF2FB;
     height: 50px;
@@ -40,8 +29,8 @@ h1 {
 
 h3 {
     margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 5px;
     padding-left: 5px;
     height: 40px;
