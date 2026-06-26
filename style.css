@@ -9,7 +9,7 @@ header {
     padding: 10px;
     background-color: #1D4ED8;
     color: white;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
 }
@@ -37,15 +37,44 @@ h3 {
     background-color: #BFDBFE;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
-ul {
-    margin: 10px;
+.links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+}
+
+.div1 > p {
+    margin: 2px;
+}
+
+.div2 > p {
+    margin: 2px;
+}
+
+.tip {
+    margin: 5px;
     padding-left: 5px;
-    height: 100px;
+    background-color: #FFE7B4;
+    height: 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style-type: none;
+    align-items: center;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #1D4ED8;
+    color: white;
+}
+
+footer > h4 {
+    margin: 0px;
 }
